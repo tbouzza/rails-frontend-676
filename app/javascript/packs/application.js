@@ -17,11 +17,13 @@ import 'bootstrap';
 
 // Import your own JS
 import { navbarTransition } from "components/navbar"
+import { dynamicBanner } from "components/banner"
 
 
 document.addEventListener('turbolinks:load', () => {
   // Call your JS functions here
   navbarTransition()
+  dynamicBanner()
 })
 
 
